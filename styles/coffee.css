@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+}
+
+h4,
+p {
+    font-size: 14px;
+}
+
+p::first-letter {
+    font-size:32px;
+}
+#sidebar ul {
+    list-style-type: none;
+    padding: 0;
+    position: fixed;
+    width: 25%;
+}
+
+#sidebar ul>li {
+    border-bottom: 1px solid #595959;
+}
+
+#sidebar ul>li:last-child {
+    border-bottom: none;
+}
+
+a {
+    display: block;
+    padding: 8px 16px;
+    color: #000000;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: #595959;
+    color: white;
+}
+
+a:active {
+    background-color: #8c8c8c;
+}
+
+.active {
+    background-color: #8c8c8c;
+}
+
+p {
+    text-indent: 2em;
+}
+
+.container {
+    width: 100%;
+}
+
+.center {
+    text-align: center;
+}
+
+#price-table tr td:last-child::before {
+    content: '￥';
+}
+
+#header {
+    text-align: center;
+    background-color: #f5f5f5;
+    color: #262626;
+}
+
+#sidebar {
+    float:left;
+    width: 25%;
+    vertical-align: top;
+    color: #f5f5f5;
+    background-color: #bfbfbf;
+    font-size:12px;
+    padding-bottom: 2000px;
+    
+}
+
+#content {
+    margin-left:25%;
+    width:75%;
+    padding: 8px;
+    font-size:12px;
+    box-sizing:border-box;
+}
+
+#footer {
+    text-align: center;
+    background-color: #d9d9d9;
+    line-height: 64px;
+    color: #8c8c8c;
+}
+
+
+#logo {
+    width: 32px;
+    height: 32px;
+    line-height: 64px;
+    vertical-align: middle;
+}
+
+#header-title {
+    vertical-align: middle;
+    line-height: 64px;
+    height: 32px;
+    font-size:32px;
+}
+
+#banner {
+    width: 80%;    
+}
+#banner:hover {
+    opacity: 0.5;
+}
+
+#price-table {
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 80%;
+    margin: 0 auto;
+}
+.clearfix {
+    clear:both;
+}

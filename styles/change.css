@@ -1,0 +1,82 @@
+.header{
+    text-align:center;
+    background-color:#f5f5f5;
+    color:#262626; 
+}
+
+.logo{
+    width:32px;
+    height:32px;
+    line-height:64px; 
+    vertical-align:middle;
+}
+
+.texttitle{
+    vertical-align:middle;
+    line-height:64px;
+    height:32px;
+}
+
+.center{
+    text-align: center;
+}
+.yebianju{
+    margin:0;
+}
+.suofan{
+    width:100%;
+}
+.bianju{
+    padding: 8px;
+}
+.book{
+    width:200px;
+    vertical-align:top;
+    color:#f5f5f5;
+    background-color:#bfbfbf;
+}
+
+#banner{
+    width:80%;
+}
+
+
+.table{
+    border:1px solid black; 
+    border-collapse:collapse;
+    width:80%;
+    margin:0 auto;
+}
+.footer{
+    text-align: center;
+    background-color:#d9d9d9;
+    line-height:64px;
+    color:#8c8c8c;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #bfbfbf;
+}
+
+li{
+    border-bottom: 1px solid #000;
+}
+li:last-child{
+    border-bottom: none;
+}
+ 
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+ 
+
+li a:hover {
+    background-color: #555;
+    color: white;
