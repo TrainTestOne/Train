@@ -10,11 +10,10 @@ p {
 p::first-letter {
     font-size:32px;
 }
+
 #sidebar ul {
     list-style-type: none;
     padding: 0;
-    position: fixed;
-    width: 25%;
 }
 
 #sidebar ul>li {
@@ -74,8 +73,10 @@ p {
     color: #f5f5f5;
     background-color: #bfbfbf;
     font-size:12px;
-    padding-bottom: 2000px;
-    
+    position:sticky;
+    top:0;
+    overflow-y:scroll;
+    height:100vh;
 }
 
 #content {
@@ -84,6 +85,7 @@ p {
     padding: 8px;
     font-size:12px;
     box-sizing:border-box;
+    background-color: white;
 }
 
 #footer {
