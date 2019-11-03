@@ -37,10 +37,3 @@ function creat(text) {
         $(this).remove();
     })
 }
-
-window.onload = function () {
-    var dmlist = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "0"];
-    for (var i = 0; i < dmlist.length; i++) {
-        creat(dmlist[i]);
-    }
-}
