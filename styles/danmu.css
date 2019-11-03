@@ -1,0 +1,43 @@
+*{
+    margin:0;
+    padding: 0;
+}
+#canvas{
+    width: 98%;
+    margin:30px auto;
+    min-width: 500px;
+    height: 500px;
+    position: relative;
+    overflow: hidden;
+    border:1px solid #000000;
+}
+.menu{
+    margin:0 auto;
+    height:100px;
+    width: 520px;
+    margin-top:30px;
+}
+.menu .input{
+    width: 500px;
+    height: 40px;
+    margin-left:10px;
+    font-size: 18px;
+    text-align: center;
+}
+.menu .buttonlist{
+    width: 320px;
+    height: 40px;
+    margin:0 auto;
+}
+.menu .button{
+    margin-top:10px;
+    width: 150px;
+    height: 40px;
+    cursor: pointer;
+    border:none;
+    background-color: #bfbfbf;
+}
+.menu .button:hover{
+    border:1px solid #e8e8e8;
+    color: #e8e8e8;
+}
