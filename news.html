@@ -1,65 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <link rel="stylesheet" href="./styles/qyzbase.css">
+    <link rel="stylesheet" href="./styles/news.css">
+    <script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdn.bootcss.com/axios/0.19.0/axios.min.js"></script>
+    <script src="./styles/new.js"></script>
+    <link rel="icon" href="img/icon.png" type="imag/x-icon">
+    <title>新闻</title>
 </head>
+
 <body>
-    <a href="#end">end</a>
-    <h1>first</h1>
-    <h2>second</h2>
-    <h3>third</h3>
-    <h4>fourth</h4>
-    <p>段落</p>
-    <h5>fitfth</h5>
-    <h6>sixth</h6>
-    <p>流星是指运行在星际空间的流星体(通常包括宇宙尘粒和固体块等空间物质)在接
-        近地球时由于受到地球引力的摄动而被地球吸引，从而进入地球大气层，
-        并与大气摩擦燃烧所产生的光迹。</p>
-    <p>流星体原来是围绕太阳运动的，在经过地球附近时，受地球引力的作用，改变轨道，
-        <br/>从而进入地球大气圈。</p>
-    <p>流星有单个流星、火流星、流星雨几种。</p>
-    <p>在掉到地面之前，大部分都已烧成了灰烬，少部分会变成陨石掉到地面上。</p>
-    <p>在掉到地面之前，大部分都已烧成了灰烬，少部分会变成陨石掉到地面上。
-        大部分可见的流星体都和沙粒差不多，重量在1克以下。</p>
-    <p>流星进入大气层的速度介于11km/s到72km/s之间。人们通常为它赋予美好的意义，认为看到并对着流星许愿就能实现心愿。</p>
-    <p>流星是指运行在星际空间的流星体(通常包括宇宙尘粒和固体块等空间物质)在接
-            近地球时由于受到地球引力的摄动而被地球吸引，从而进入地球大气层，
-            并与大气摩擦燃烧所产生的光迹。</p>
-        <p>流星体原来是围绕太阳运动的，在经过地球附近时，受地球引力的作用，改变轨道，
-            <br/>从而进入地球大气圈。</p>
-        <p>流星有单个流星、火流星、流星雨几种。</p>
-        <p>在掉到地面之前，大部分都已烧成了灰烬，少部分会变成陨石掉到地面上。</p>
-        <p>在掉到地面之前，大部分都已烧成了灰烬，少部分会变成陨石掉到地面上。
-            大部分可见的流星体都和沙粒差不多，重量在1克以下。</p>
-            <p>流星是指运行在星际空间的流星体(通常包括宇宙尘粒和固体块等空间物质)在接
-                    近地球时由于受到地球引力的摄动而被地球吸引，从而进入地球大气层，
-                    并与大气摩擦燃烧所产生的光迹。</p>
-                <p>流星体原来是围绕太阳运动的，在经过地球附近时，受地球引力的作用，改变轨道，
-                    <br/>从而进入地球大气圈。</p>
-                <p>流星有单个流星、火流星、流星雨几种。</p>
-                <p>在掉到地面之前，大部分都已烧成了灰烬，少部分会变成陨石掉到地面上。</p>
-                <p>在掉到地面之前，大部分都已烧成了灰烬，少部分会变成陨石掉到地面上。
-                    大部分可见的流星体都和沙粒差不多，重量在1克以下。</p>
-    <img src="https://ps.ssl.qhimg.com/sdmt/132_132_100/t01b0a83547629ad9fb.webp">
-     <a href="https://www.baidu.com/">百度</a><br/>
-    <a href="tel:15109393603">电话</a><br/>
-    <a href="mailto:name@email.com">email</a><br/>
-    <a name="end"></a>
-    <p style="background-color: red;">
-    流星有单个流星、火流星、流星雨几种。
-    流星有单个流星、火流星、流星雨几种。
-    流星有单个流星、火流星、流星雨几种。
-    流星有单个流星、火流星、流星雨几种。
-    流星有单个流星、火流星、流星雨几种。</p>
-    <p style="text-align: center;">wwwwww</p>
-    <p style="font-family: LiSu;">
-    流星有单个流星、火流星、流星雨几种。
-    流星有单个流星、火流星、流星雨几种。
-    流星有单个流星、火流星、流星雨几种。
-    流星有单个流星、火流星、流星雨几种。
-    流星有单个流星、火流星、流星雨几种。</p>
+    <div class="header">
+        <div class="logo">
+            <h2>
+                <img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1572344710442&di=5505bf8c129fedea1b162ae181bdf1e9&imgtype=0&src=http%3A%2F%2Fku.90sjimg.com%2Felement_origin_min_pic%2F01%2F06%2F81%2F7956f5110861303.jpg"> 电影电影
+            </h2>
+        </div>
+        <div class="nav">
+            <ul>
+                <li><a href="about.html">关于我们</a></li>
+                <li><a href="news.html">新闻</a></li>
+                <li><a href="index.html">首页</a></li>
+            </ul>
+        </div>
+    </div>
+    <div id="content">
+        <h2>最新新闻</h2>
+        <ul class="nl">
+            <div class="loading">
+                <div class="pic">
+                    <i></i>
+                    <i></i>
+                    <i></i>
+                    <i></i>
+                    <i></i>
+                </div>
+            </div>
+        </ul>
+        <div class="clean"></div>
+    </div>
+    <ul id="pagelist">
+        <li><a href="#" id="page1">1</a></li>
+        <li><a href="#" id="page2">2</a></li>
+        <div class="clean"></div>
+    </ul>
+    <div class="footer">
+        <div class="fnav">
+            <div class="footer_top">
+                <div class="ft">
+                    <img src="img/zb.png">
+                    <p>闽江学院</p>
+                </div>
+                <div class="ft">
+                    <img src="img/yj.png">
+                    <p>123456789@123.com</p>
+                </div>
+                <div class="ft">
+                    <img src="img/dh.png">
+                    <p>123-456-789</p>
+                </div>
+                <div class="ft">
+                    <img class="er" src="img/er.jpg">
+                    <p>扫一扫</p>
+                </div>
+            </div>
+            <div class="footer_bottom">
+                <hr>
+                <p>版权所有&copy;qyz</p>
+            </div>
+        </div>
+    </div>
 </body>
+
 </html>
