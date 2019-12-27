@@ -1,0 +1,221 @@
+h2,
+h3 {
+    text-align: center;
+}
+.header .nav ul{
+    width: 400px;
+}
+
+/*轮播图*/
+
+.banner {
+    width: 1500px;
+    height: 600px;
+    position: relative;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.banner .imglist {
+    min-width: 4500px;
+    width: 4500px;
+    height: 600px;
+    position: absolute;
+    z-index: 1;
+}
+
+.banner .button {
+    position: absolute;
+    left: 650px;
+    bottom: 10px;
+    width: 180px;
+    height: 30px;
+    z-index: 2;
+}
+
+.banner .button span {
+    margin-left: 25px;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #8c8c8c;
+    cursor: pointer;
+    display: none;
+}
+
+.banner:hover .button span {
+    display: inline-block;
+}
+
+.banner .button .on {
+    background-color: red;
+}
+
+.banner .arrow {
+    position: absolute;
+    top: 35%;
+    color: #bfbfbf;
+    padding: 0px 14px;
+    border-radius: 50%;
+    font-size: 50px;
+    z-index: 2;
+    display: none;
+}
+
+.banner .banner_left {
+    left: 50px;
+}
+
+.banner .banner_right {
+    right: 50px;
+}
+
+.banner:hover .arrow {
+    display: block;
+}
+
+.banner .arrow:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.banner .imglist img {
+    width: 1500px;
+    height: 600px;
+    float: left;
+}
+
+
+/*内容*/
+
+.content {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.content h2 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.content .service {
+    background-color: #bfbfbf;
+}
+
+.content .service h2 {
+    padding-top: 10px;
+}
+
+.content .service .ser {
+    width: 250px;
+    height: 250px;
+    float: left;
+    margin-left: 40px;
+    margin-top: 20px;
+    text-align: center
+}
+
+.content .service .ser img {
+    width: 150px;
+    height: 150px;
+}
+
+.content .service .ser p {
+    font-size: 18px;
+    margin-top: 10px;
+    color: #8c8c8c;
+}
+
+.content .hot {
+    margin-top: 20px;
+}
+
+.content .hot p {
+    font-size: 18px;
+}
+
+.content .hot .lef img {
+    float: left;
+    width: 600px;
+    height: 600px;
+}
+
+.content .hot .rig img {
+    float: right;
+    width: 600px;
+    height: 600px;
+}
+
+.content .hot .ht {
+    float: left;
+    margin-left: 100px;
+    width: 400px;
+    position: relative;
+    height: 600px;
+}
+
+.content .hot .ht h3 {
+    margin-bottom: 10px;
+    font-size: 24px;
+}
+
+.content .hot .ht .hb {
+    bottom: 100px;
+    width: 100%;
+    position: absolute;
+}
+
+.content .hot .ht .hb hr {
+    width: 150px;
+    margin: 0 auto;
+}
+
+.newslist {
+    height: 400px;
+}
+
+.newslist h2 {
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+
+/* 新闻列表 */
+
+.newslist .new {
+    width: 200px;
+    float: left;
+    margin-left: 80px;
+    margin-bottom: 20px;
+    list-style: none;
+}
+
+.newslist .new img {
+    width: 200px;
+    height: 200px;
+}
+
+.newslist .new span {
+    font-size: 15px;
+    color: black;
+}
+
+.newslist .new p {
+    font-size: 12px;
+    text-indent: 2em;
+    color: #8c8c8c;
+}
+
+.newslist .new a {
+    display: block;
+    width: 100%;
+    height: 300px;
+    text-decoration: none;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+
+.newslist .new a:hover {
+    border: 0.4px solid #8c8c8c;
+    opacity: 0.8;
+}
