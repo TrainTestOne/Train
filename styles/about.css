@@ -1,0 +1,33 @@
+h1 {
+    text-align: center;
+}
+
+#content {
+    width: 1200px;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+
+#content #map {
+    margin-top: 15px;
+    width: 550px;
+    height: 200px;
+    float: left;
+    margin-left: 50px;
+}
+
+#content .jies {
+    width: 550px;
+    height: 200px;
+    float: right;
+    padding: 15px 15px;
+}
+
+#content .jies img {
+    width: 20px;
+    height: 20px;
+}
+
+#content .jies span {
+    line-height: 40px
+}
