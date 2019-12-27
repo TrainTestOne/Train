@@ -1,0 +1,100 @@
+body {
+    position: relative;
+}
+
+h2 {
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+}
+
+#content {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+#content .nl {
+    list-style-type: none;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+#content .nl li {
+    float: left;
+    width: 400px;
+    height: 190px;
+    margin-left: 130px;
+    margin-top: 50px;
+}
+
+#content .nl li a {
+    text-decoration: none;
+    display: inline-block;
+    width: 100%;
+    height: 190px;
+    box-sizing: border-box;
+    cursor: pointer;
+    color: black;
+}
+
+#content .nl li a:hover {
+    border: 1px solid #000;
+}
+
+#content .nl li img {
+    width: 150px;
+    height: 150px;
+    background-color: royalblue;
+}
+
+#content .nl li img {
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+#content .nl li .ant {
+    float: right;
+    width: 200px;
+    height: 150px;
+    margin-right: 15px;
+    margin-top: 15px;
+}
+
+#content .nl li .ant h4 {
+    font-size: 18px;
+}
+
+#content .nl li .ant span {
+    font-size: 10px;
+    color: #d9d9d9;
+}
+
+#content .nl li .ant p {
+    font-size: 12px;
+    text-indent: 1em;
+}
+
+#pagelist {
+    margin: 0 auto;
+    width: 200px;
+    padding: 10px 10px;
+}
+
+#pagelist #page1,
+#page2,
+#page3 {
+    list-style: none;
+    float: left;
+    margin-left: 20px;
+    border: 1px solid #000;
+    width: 20px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.on {
+    color: white;
+    background-color: black;
+}
